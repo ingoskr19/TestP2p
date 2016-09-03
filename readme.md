@@ -10,4 +10,6 @@
 - 8. click en IR A TRANSACCION
 - 9. click en crear nueva transacción demo
 - 10. digitar los datos de la transacicon basicos
-- 11. click pagar
+- 11. click pagar.
+- 12. completar prueba.
+- 13. despues de 7 minutos navegar a localhost:8000/transacciones para ver nuevo estado de la transaccion.
