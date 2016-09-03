@@ -93,7 +93,7 @@ class transaccionController extends Controller
         $PSETransactionRequest = [
             'bankCode' => $banco,
             'bankInterface' => $tipo,
-            'returnURL' => 'http://localhost:8000/transacciones',
+            'returnURL' => 'http://localhost:8000/verifyEstatus',
             'reference' => $reference, //substr(sha1(mt_rand()),1,10),
             'description' => 'Testing Transaction',
             'language' => 'es',
