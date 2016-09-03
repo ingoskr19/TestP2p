@@ -29,7 +29,7 @@ $(document).ready(function () {
                     console.log(respuesta);
                 },
                 error: function (response) {
-                    alert("Algo falló. por favor consulte con el administrador. o intente mas tarde");
+                    console.log("Algo falló. por favor consulte con el administrador. o intente mas tarde");
                 }
             });
     }
@@ -69,6 +69,7 @@ $(document).ready(function () {
                     $('.selectpicker').selectpicker();
                     $('#banco').fadeIn();
                     $('#loading').fadeOut();
+                    $("errorGetBankList").fadeOut();
 
                     //$('#grilla-lista-grupo').dataTable().fnAddData( [i+1,estudiantes[i].Estudiante.identificacion,estudiantes[i].Estudiante.apellido1+' '+estudiantes[i].Estudiante.apellido2+' '+estudiantes[i].Estudiante.nombre1+' '+estudiantes[i].Estudiante.nombre2]);
                     setCookieText('last_request',hoy,1);
